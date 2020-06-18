@@ -1,0 +1,15 @@
+runtime: nodejs10
+instance_class: F2
+service: default
+
+# Update with Redis instance details
+#env_variables:
+  #REDISHOST: '10.0.0.4'
+  #REDISPORT: '6379'
+
+#manual_scaling:
+  #instances: 1
+#resources:
+  #cpu: 1
+  #memory_gb: 1
+  #disk_size_gb: 10
