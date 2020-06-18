@@ -1,0 +1,11 @@
+{
+  "name": "node-storage",
+  "version": "1.0.0",
+  "description": "estrutura de pastas:\r ```bash\r ├── server                     # Configuração do server\r │   ├── config \t\t\t\t   # Configs - Redis | Datastore | Promisses Handler\r │   ├── functions \t\t\t   # \"Controllers\" para conexão com Redis e Datastore\r │   ├── secure \t\t\t\t   # Variáveis de ambiente e JSON de autenteicação\r │   └── services \t\t\t   # Chamadas de validações\r ├── bitbucket-pipelines.yml    # Configuração do Pipeline\r ├── package.json               # Dependências\r ├── app.yaml                   # Configuração App Engine\r ├── index.js \t\t\t\t           # Configurações iniciais do serviço\r └── README.md                  # Esse Arquivo\r ```",
+  "main": "download.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "thihenos",
+  "license": "MIT"
+}
